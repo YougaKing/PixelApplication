@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v4.widget.NestedScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -18,23 +19,16 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="@dimen/y96"
-            android:background="@color/colorPrimary"/>
-
-        <ImageView
-            android:layout_width="@dimen/x720"
-            android:layout_height="@dimen/y574"
-            android:contentDescription="@null"
-            android:scaleType="fitXY"
-            android:src="@drawable/example"/>
+            android:background="@color/colorPrimary"
+            app:titleTextAppearance="@style/Toolbar.TitleText"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="@dimen/y96"
-            android:layout_marginTop="@dimen/y20"
             android:background="@android:color/white"
             android:gravity="center_vertical"
             android:paddingLeft="@dimen/x34"
-            android:text="TITLE"
+            android:text="婚礼策划"
             android:textSize="@dimen/y28"/>
 
         <android.support.v7.widget.RecyclerView
@@ -44,6 +38,14 @@
             android:background="@android:color/white"
             android:paddingBottom="@dimen/y20"/>
 
+        <ImageView
+            android:layout_width="@dimen/x720"
+            android:layout_height="@dimen/y574"
+            android:layout_marginTop="@dimen/y20"
+            android:contentDescription="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/example"
+            />
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>
 

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Snake</string>
+
+    <string name="lack">缺少%$s</string>
+
+    <string name="count">累计长度:%1$s\t\t累计击杀:%2$s</string>
+    <string name="age">岁</string>
+    <string name="longest_length">最长长度:%1$s\t\t全服排名:%2$s</string>
+    <string name="most_kill">最多击杀:%1$s\t\t全服排名:%2$s</string>
+</resources>
